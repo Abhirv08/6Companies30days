@@ -29,3 +29,14 @@ class Solution {
         return ;
     }
 }
+
+/* 
+   TC - O(45*k)
+    for Kth traversal, for loop will run 1 to 9.
+    for (K-1)th traversal, for loop will run 2 to 9.
+    . . .
+    total = 9 + 8 + 7 + ... + 1 = 45
+    
+   SC - O(k) // Recursive Stack Space
+*/
+        
