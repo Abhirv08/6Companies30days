@@ -1,4 +1,4 @@
-Question: https://leetcode.com/problems/evaluate-reverse-polish-notation/
+// Question: https://leetcode.com/problems/evaluate-reverse-polish-notation/
 
 class Solution {
     public int evalRPN(String[] tokens) {
@@ -28,3 +28,6 @@ class Solution {
         return st.pop();
     }
 }
+
+// TC - O(tokens.length)
+// SC - O(tokens.length)  // Although it will be less than tokens.length
