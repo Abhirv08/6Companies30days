@@ -34,6 +34,6 @@ class Solution {
 }
 
 /*
-TC = O(nums.length + numsDivide.length)
+TC = O(nlogn + n)
 SC = O(nums.length)
 */
